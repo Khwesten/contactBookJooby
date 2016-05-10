@@ -1,8 +1,5 @@
 package com.mycompany;
 
-import org.jooby.test.Client;
-import org.jooby.test.Client.Request;
-import org.junit.Ignore;
 import org.junit.Test;
 
 /**

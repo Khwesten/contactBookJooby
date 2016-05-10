@@ -7,6 +7,8 @@ import org.jooby.Results;
 import org.jooby.json.Jackson;
 
 /**
+ * Bootstrap and routes to interact with contact
+ *
  * @author jooby generator
  */
 public class App extends Jooby {
@@ -16,6 +18,7 @@ public class App extends Jooby {
 
     {
         use(new Jackson());
+        use(TestRoute.class);
 
         /**
          * Method called by index of server
